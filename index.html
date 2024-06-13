@@ -9,18 +9,18 @@
 </head>
 
 <body>
-    <div class="hero min-h-screen bg-base-200">
+    <div class="hero min-h-screen bg-stone-300 font-serif text-slate-500">
         <div class="hero-content flex-col lg:flex-row-reverse">
             <div class="text-center lg:text-left">
-                <h1 class="text-5xl font-bold">Presupuesto para bodas Online</h1>
+                <h1 class="text-5xl text-slate-700">Presupuesto para bodas Online</h1>
                 <p class="py-6">Selecciona tu presupuesto y el número de invitados para tu evento. Se generará un
                     estimado de lo que obtendrás en tu evento</p>
             </div>
-            <div class="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+            <div class="card shrink-0 w-full max-w-sm shadow-2xl bg-stone-200">
                 <form class="card-body">
                     <div class="form-control">
-                        <label class="label">
-                            <span class="label-text">Presupuesto</span>
+                        <label class="label ">
+                            <span class="label-text text-slate-600">Presupuesto</span>
                         </label>
                         <div class="flex">
                             <input type="range" min="85000" max="300000" value="25" class="range pe-2" step="25" oninput="this.nextElementSibling.value = this.value + '$'" id="budget"/>
@@ -36,7 +36,7 @@
                     </div>
                     <div class="form-control">
                         <label class="label">
-                            <span class="label-text">Número de Invitados</span>
+                            <span class="label-text text-slate-600">Número de Invitados</span>
                         </label>
                         <div class="flex">
                             <input type="range" min="100" max="200" value="25" class="range pe-2" step="1" oninput="this.nextElementSibling.value = this.value" id="guests"/>
@@ -52,7 +52,7 @@
                     </div>
                     <div class="form-control">
                         <label class="label">
-                            <span class="label-text">Preview</span>
+                            <span class="label-text text-slate-600">Preview</span>
                             
                         </label>
                         <div id="wedding">
@@ -61,7 +61,7 @@
 
                     </div>
                     <div class="form-control mt-6">
-                        <a class="btn btn-primary" href="https://www.instagram.com/wendy.plannermx?igsh=endlYTJuZ2RuYzhn">Quiero cotizar!</a>
+                        <a class="btn btn-outline  bg-stone-300 border-stone-200 text-slate-700" href="https://www.instagram.com/wendy.plannermx?igsh=endlYTJuZ2RuYzhn">Quiero cotizar!</a>
                     </div>
                 </form>
             </div>
